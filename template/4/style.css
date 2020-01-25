@@ -1,0 +1,163 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    color: #737373;
+    font-style: 15px;
+    line-height: 1.3;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 962px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header {
+    background-color: #343434;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 10px 0 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.mainPic {
+    background-image: url(images/main-pic.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 20%;
+    padding-bottom: 2%;
+}
+
+.lastNews {
+    background-color: #e4593a;
+}
+
+.lastNews p {
+    padding: 20px 0;
+}
+
+.lastNews span {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ourServ h2,
+.uniqueD h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.h2-black {
+    color: #272630;
+}
+
+.ourServ {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.uniqueD {
+    margin-top: 3em;
+    padding-bottom: 7em;
+}
+
+.uniqueD h2 {
+    margin-bottom: 2em;
+}
+
+.uniqueP {
+    margin-top: 0;
+}
+
+.ourServ span,
+.uniqueD span {
+    color: #f26c4f;
+}
+
+.ourServ p,
+.uniqueD p {
+    font-size: 15px;
+    color: #737373;
+    line-height: 25px;
+}
+
+.ourServ img {
+    float: right;
+    margin-left: 3em;
+}
+
+.uniqueD img {
+    float: left;
+    margin-right: 2em;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #343434;
+}
+
+footer span {
+    display: block;
+    font-size: 14px;
+    color: #aeaeae;
+    float: left;
+    margin: 3em 0 3em 0;
+}
+
+.icons {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.icons a {
+    display: block;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 10px;
+    float: left;
+    background: #e4593a url('images/ic-tw.png') 50% 50% no-repeat;
+}
+
+.icons .fb {
+    background-image: url('images/ic-fb.png');
+}
+
+.icons .rss {
+    background-image: url('images/ic-rss.png');
+}
